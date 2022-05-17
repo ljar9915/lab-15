@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  
+<head>
+  
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet">
+<title> lab 15 </title>
+
+</head>
+
+<body>
+  <center>
+  
+	<div class="wrapper">
+		<div class="center">
+			<h1>TEXT CHANGER</h1>
+			<button type="button" onClick="textChange()" class="button-property">Change</button>
+			<button type="button" onClick="textReset()" class="button-property">Reset</button>
+			<p id="demo">Lorem Ipsum</p>
+		</div>
+	</div>
+  
+<script>
+
+  // this function changes the text of the button with the onClick property 'textChange()' to "dog".
+  function textChange() {
+    document.getElementById("demo").innerHTML="dog";
+  }
+  
+// this function resets the text of the button with the onClick property "textReset" back to "Lorem Ipsum".
+  function textReset() {
+    document.getElementById("demo").innerHTML="Lorem Ipsum";
+  }
+
+  // this creates a pop-up alert upon opening the page.
+  alert ("warning: mental check-in incoming")
+
+  // this creates a pop-up alert with a question & an input bar to add a response to 
+  var mood=prompt ("how was your day? how are you feeling?")
+  alert(mood)
+  var x;
+  x=5;
+  console.log(x);
+  var y=2;
+  console.log(y);
+  var x=5;
+  x=1;
+  z=x+y
+  console.log(z)
+  console.log(" answer: " +mood)
+  
+</script>
+  
+</body>
+</html>
